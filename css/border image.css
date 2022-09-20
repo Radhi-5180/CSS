@@ -1,0 +1,13 @@
+.z{
+	box-sizing: border-box;
+	margin: 100PX auto;
+	padding:10px;
+	width: 250px;
+	height: 250px;
+	border:30px solid;
+	color:red;
+	border-image-source:url("https://cdn3.vectorstock.com/i/1000x1000/75/22/floral-border-frame-background-vector-1187522.jpg ");
+	border-image-slice:100;
+	
+
+}

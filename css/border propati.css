@@ -1,0 +1,51 @@
+
+.x-1 h1{
+	width: 550px;
+	margin: 100px 100px  ;
+	border-style: dotted;
+	border-width: 20px;
+	border-color: red purple green blue ;
+	padding: 10px 10px;
+}
+.x-2 h1{
+	width: 550px;
+	margin: 100px 100px  ;
+	border-style: dashed;
+	border-width: 20px;
+	border-color: red blue green purple ;
+	padding:20px 10px;
+}
+.x-3 h1{
+	width: 550px;
+	margin: 100px 100px  ;
+	border-style: double;
+	border-width: 50px;
+	border-color: red purple green blue ;
+	padding: 10px 10px;
+
+}
+.x-4 h1{
+	width: 550px;
+	margin: 100px 100px  ;
+	border-style: groove;
+	border-width:50px ;
+	border-color:red purple green blue ;
+	padding: 10px 10px;
+}
+.x-5 h1{
+     width: 550px;
+	margin: 100px 100px  ;
+	border-style: inset;
+	border-width:20px ;
+	border-color: purple green ;
+	padding: 10px 10px;
+}
+.x-6 h1{
+	width: 550px;
+	margin: 100px 100px  ;
+	border-style: outset;
+	border-width:20px ;
+	border-color:grey  ;
+	padding: 10px 10px;
+}
+

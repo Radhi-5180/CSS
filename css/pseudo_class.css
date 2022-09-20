@@ -1,0 +1,34 @@
+div.container p:nth-child(even)
+{
+	color: red;
+
+}
+div.container p:nth-child(2n+1)
+{
+	color: green;
+}
+.x
+{
+	width: 200px;
+	height: 200px;
+	border:2px;
+	background-color: blue;
+}
+.x:hover
+{
+	background-color: red;
+}
+.x:active
+{
+	background-color: yellow;
+}
+h1::before
+{
+	word-spacing: 20px;
+	content: "hello";
+}
+	
+
+
+
+

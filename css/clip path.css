@@ -1,0 +1,38 @@
+.x{
+	width:200px;
+	height: 200px;
+	border:40px dotted;
+	color: red;
+	background-color: yellow;
+	margin: 50px auto;
+	padding: 40px; 
+	background-clip:padding-box;
+}
+.x p{
+	margin: 20px 0px 0px 0px;
+	float: left;
+	font-family: tahoma;
+}
+.x h1{
+	font-size: 20px;
+	font-family: tahoma;
+}
+.y{
+	width:200px;
+	height: 200px;
+	border:20px dotted;
+	color: grey;
+	background-color: purple;
+	margin: 50px auto;
+	padding: 40px; 
+	background-clip:content-box;
+}
+.y p{
+	margin: 20px 0px 0px 0px;
+	float: left;
+	font-family: tahoma;
+}
+.y h1{
+	font-size: 20px;
+	font-family: tahoma;
+}

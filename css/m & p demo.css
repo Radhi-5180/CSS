@@ -1,0 +1,22 @@
+.box{
+	box-sizing: border-box;
+	width:500px;
+	height: 500px;
+	border:5px solid pink;
+	background-color: blue;
+	margin: 100px auto 100px auto;
+	padding:60px 40px ;
+
+
+
+}
+.y{
+	width:400px;
+	height: 300px;
+	border:5px solid pink;
+	background-color: yellow;
+	background-image: url(https://cdn.mos.cms.futurecdn.net/mZWTSqsHwPqLJ4WCez9mSm.jpg);
+	background-size: cover;
+
+
+}
