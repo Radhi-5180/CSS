@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basic_animation</title>
+	<style type="text/css">
+	 .x{
+	 	width: 200px;
+	 	height: 200px;
+	 	background: gray;
+	 	animation-name: animate;
+	 	animation-duration: 4s;
+	 	animation-iteration-count: infinite;
+	 	border-radius: 20px;
+	 }	
+	/* @keyframes anyname
+	 {
+	 	form{background: gray;}
+	 	to{background:green;}
+	 }*/
+      @keyframes animate
+      {
+      	0%{background:grey;box-shadow: 30px 20px 20px navy, -30px -20px 20px red;}
+      	20%{background:magenta; height: 100px;}
+      	40%{background:hotpink; width: 10px; transform: rotate(200deg);}
+      	60%{background:coral;transform: translate(500px,100px); }
+      	80%{background:skyblue; width: 10px;}
+      	100%{background:purple; transform: rotate(50deg );}
+      	100%{background:green; transform: rotate(100deg );}
+      }
+	</style>
+</head>
+<body>
+   <div class="x"></div>
+</body>
+</html>
